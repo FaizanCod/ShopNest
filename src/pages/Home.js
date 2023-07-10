@@ -37,7 +37,8 @@ const Home = () => {
 										<h4>BEST SALE</h4>
 										<h5>Laptops Max</h5>
 										<p>
-											From ₹ 80,000 <br />or ₹5,000/mo.
+											From ₹ 80,000 <br />
+											or ₹5,000/mo.
 										</p>
 									</div>
 								</div>
@@ -51,7 +52,8 @@ const Home = () => {
 										<h4>NEW ARRIVAL</h4>
 										<h5>iPad S13+ Pro.</h5>
 										<p>
-											From ₹ 80,000 <br />or ₹5,000/mo.
+											From ₹ 80,000 <br />
+											or ₹5,000/mo.
 										</p>
 									</div>
 								</div>
@@ -65,7 +67,8 @@ const Home = () => {
 										<h4>SUPERCHARGED FOR PROS.</h4>
 										<h5>iPad S13+ Pro.</h5>
 										<p>
-											From ₹ 80,000 <br />or ₹5,000/mo.
+											From ₹ 80,000 <br />
+											or ₹5,000/mo.
 										</p>
 									</div>
 								</div>
@@ -79,9 +82,121 @@ const Home = () => {
 										<h4>SUPERCHARGED FOR PROS.</h4>
 										<h5>iPad S13+ Pro.</h5>
 										<p>
-											From ₹ 80,000 <br />or ₹5,000/mo.
+											From ₹ 80,000 <br />
+											or ₹5,000/mo.
 										</p>
 									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className="home-wrapper-2 py-5">
+				<div className="container-xxl">
+					<div className="row">
+						<div className="col-12">
+							<div className="services d-flex align-items-center justify-content-between">
+								<div className="d-flex align-items-center gap-15">
+									<img src="images/service.png" alt="services" />
+									<div>
+										<h6>Free Shipping</h6>
+										<p className="mb-0">For all orders above ₹1000</p>
+									</div>
+								</div>
+								<div className="d-flex align-items-center gap-15">
+									<img src="images/service-02.png" alt="services" />
+									<div>
+										<h6>Daily Surprise Offers</h6>
+										<p className="mb-0">Save upto 25% off</p>
+									</div>
+								</div>
+								<div className="d-flex align-items-center gap-15">
+									<img src="images/service-03.png" alt="services" />
+									<div>
+										<h6>Support 24x7</h6>
+										<p className="mb-0">Shop with an expert</p>
+									</div>
+								</div>
+								<div className="d-flex align-items-center gap-15">
+									<img src="images/service-04.png" alt="services" />
+									<div>
+										<h6>Affordable prices</h6>
+										<p className="mb-0">Get factory prices</p>
+									</div>
+								</div>
+								<div className="d-flex align-items-center gap-15">
+									<img src="images/service-05.png" alt="services" />
+									<div>
+										<h6>Secure Payments</h6>
+										<p className="mb-0">100% Protected Payment</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className="home-wrapper-2 py-5">
+				<div className="container-xxl">
+					<div className="row">
+						<div className="col-12">
+							<div className="categories d-flex justify-content-between flex-wrap align-items-center">
+								<div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Cameras</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/camera.jpg" alt="camera" />
+								</div>
+								<div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Smart TV</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/tv.jpg" alt="camera" />
+								</div>
+								<div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Smart Watches</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/camera.jpg" alt="camera" />
+								</div>
+								<div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Headphones</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/headphone.jpg" alt="camera" />
+								</div>
+                                <div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Cameras</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/camera.jpg" alt="camera" />
+								</div>
+								<div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Smart TV</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/tv.jpg" alt="camera" />
+								</div>
+								<div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Smart Watches</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/camera.jpg" alt="camera" />
+								</div>
+								<div className="d-flex gap-20 align-items-center">
+									<div>
+										<h6>Headphones</h6>
+										<p>10 Items</p>
+									</div>
+									<img src="images/headphone.jpg" alt="camera" />
 								</div>
 							</div>
 						</div>
