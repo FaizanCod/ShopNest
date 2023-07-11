@@ -26,6 +26,10 @@ a {
   display: inline-block;
 }
 
+.gap-8 {
+  gap: 8px;
+}
+
 .gap-10 {
   gap: 10px;
 }
@@ -333,7 +337,7 @@ footer .input-group-text {
 }
 
 .product-card .product-details h5,
-p {
+.product-card .product-details p {
   font-size: 15px;
   color: var(--color-1c1b1b);
 }
@@ -347,4 +351,11 @@ p {
 .wishlist-icon {
   top: 3%;
   right: 14px;
+}
+
+/* Special Products */
+.special-product-card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
 }
