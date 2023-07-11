@@ -60,15 +60,15 @@ const Footer = () => {
 									shopnest@gmail.com
 								</a>
 								<div className="social-icons d-flex align-items-center gap-20 mt-4">
-									<a href="" className="text-white">
+									<a href="#" className="text-white">
 										{" "}
 										<BsLinkedin className="fs-4" />
 									</a>
-									<a href="" className="text-white">
+									<a href="#" className="text-white">
 										{" "}
 										<BsGithub className="fs-4" />
 									</a>
-									<a href="" className="text-white">
+									<a href="#" className="text-white">
 										{" "}
 										<BsInstagram className="fs-4" />
 									</a>
