@@ -359,3 +359,36 @@ footer .input-group-text {
   border-radius: 10px;
   background-color: white;
 }
+
+/* Famous Card */
+.famous-card .famous-content {
+  top: 7%;
+  left: 10%;
+}
+
+.famous-card img {
+  border-radius: 10px;
+}
+
+.famous-content h6 {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 7px;
+  color: white;
+}
+
+.famous-content h5 {
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+}
+
+.famous-content p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: white;
+}

@@ -222,6 +222,60 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+			<section className="famous-wrapper py-5 home-wrapper-2">
+				<div className="container-xxl">
+					<div className="row">
+						<div className="col-3">
+							<div className="famous-card position-relative">
+								<img
+									src="images/famous-1-2.jpg"
+									alt="famous"
+									className="img-fluid"
+								/>
+								<div className="famous-content position-absolute">
+									<h6>Big Screen</h6>
+									<h5>Smart Watch Series 7</h5>
+									<p>From ₹ 3000</p>
+								</div>
+							</div>
+						</div>
+						<div className="col-3">
+							<div className="famous-card position-relative">
+								<img src="images/famous-2-3.jpg" alt="famous" className="img-fluid" />
+								<div className="famous-content position-absolute">
+									<h6 className="text-dark">Studio Display</h6>
+									<h5 className="text-dark">600 nits of brightness</h5>
+									<p className="text-dark">27-in 5k retina display</p>
+								</div>
+							</div>
+						</div>
+						<div className="col-3">
+							<div className="famous-card position-relative">
+								<img
+									src="images/famous-2-3.jpg"
+									alt="famous"
+									className="img-fluid"
+								/>
+								<div className="famous-content position-absolute">
+									<h6 className="text-dark">Studio Display</h6>
+									<h5 className="text-dark">600 nits of brightness</h5>
+									<p className="text-dark">27-in 5k retina display</p>
+								</div>
+							</div>
+						</div>
+						<div className="col-3">
+							<div className="famous-card position-relative">
+								<img src="images/famous-2-3.jpg" alt="famous" className="img-fluid" />
+								<div className="famous-content position-absolute">
+									<h6 className="text-dark">Studio Display</h6>
+									<h5 className="text-dark">600 nits of brightness</h5>
+									<p className="text-dark">27-in 5k retina display</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section className="special-wrapper py-5 home-wrapper-2">
 				<div className="container-xxl">
 					<div className="row">
@@ -229,11 +283,28 @@ const Home = () => {
 							<h3 className="section-heading">Special Products</h3>
 						</div>
 					</div>
-                    <div className="row">
-                        <SpecialProduct />
-                        <SpecialProduct />
-                        <SpecialProduct />
-                    </div>
+					<div className="row">
+						<SpecialProduct />
+						<SpecialProduct />
+						<SpecialProduct />
+					</div>
+				</div>
+			</section>
+			<section className="popular-wrapper py-5 home-wrapper-2">
+				<div className="container-xxl">
+					<div className="row">
+						<div className="col-12">
+							<h3 className="section-heading">Our Popular Products</h3>
+						</div>
+					</div>
+					<div className="row">
+						<ProductCard />
+						<ProductCard />
+						<ProductCard />
+						<ProductCard />
+						<ProductCard />
+						<ProductCard />
+					</div>
 				</div>
 			</section>
 			<section className="marquee-wrapper py-5">
