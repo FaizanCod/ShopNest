@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
+import BlogCard from "../components/BlogCard";
 
 const Home = () => {
 	return (
@@ -171,7 +172,7 @@ const Home = () => {
 									</div>
 									<img src="images/headphone.jpg" alt="camera" />
 								</div>
-                                <div className="d-flex gap-20 align-items-center">
+								<div className="d-flex gap-20 align-items-center">
 									<div>
 										<h6>Cameras</h6>
 										<p>10 Items</p>
@@ -204,39 +205,54 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
-            <section className="marquee-wrapper py-5">
+			<section className="marquee-wrapper py-5">
+				<div className="container-xxl">
+					<div className="row">
+						<div className="col-12">
+							<div className="marquee-inner-wrapper card-wrapper">
+								<Marquee className="d-flex">
+									<div className="mx-4 w-25">
+										<img src="images/brand-01.png" alt="brand" />
+									</div>
+									<div className="mx-4 w-25">
+										<img src="images/brand-02.png" alt="brand" />
+									</div>
+									<div className="mx-4 w-25">
+										<img src="images/brand-03.png" alt="brand" />
+									</div>
+									<div className="mx-4 w-25">
+										<img src="images/brand-04.png" alt="brand" />
+									</div>
+									<div className="mx-4 w-25">
+										<img src="images/brand-05.png" alt="brand" />
+									</div>
+									<div className="mx-4 w-25">
+										<img src="images/brand-06.png" alt="brand" />
+									</div>
+									<div className="mx-4 w-25">
+										<img src="images/brand-07.png" alt="brand" />
+									</div>
+									<div className="mx-4 w-25">
+										<img src="images/brand-08.png" alt="brand" />
+									</div>
+								</Marquee>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section className="blog-wrapper py-5 home-wrapper-2">
                 <div className="container-xxl">
                     <div className="row">
                         <div className="col-12">
-                            <div className="marquee-inner-wrapper card-wrapper">
-                                <Marquee className="d-flex">
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-01.png" alt="brand"/>
-                                    </div>
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-02.png" alt="brand"/>
-                                    </div>
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-03.png" alt="brand"/>
-                                    </div>
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-04.png" alt="brand"/>
-                                    </div>
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-05.png" alt="brand"/>
-                                    </div>
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-06.png" alt="brand"/>
-                                    </div>
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-07.png" alt="brand"/>
-                                    </div>
-                                    <div className="mx-4 w-25">
-                                        <img src="images/brand-08.png" alt="brand"/>
-                                    </div>
-                                </Marquee>
-                            </div>
+                            <h3 className="section-heading">
+                                Our Latest Blogs
+                            </h3>
                         </div>
+                        <BlogCard />
+                        <BlogCard />
+                        <BlogCard />
+                        <BlogCard />
                     </div>
                 </div>
             </section>
