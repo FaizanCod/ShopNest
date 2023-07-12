@@ -1,10 +1,18 @@
 import React from "react";
 import ReactStars from "react-rating-stars-component";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
-const ProductCard = () => {
+const ProductCard = (props) => {
+	const { grid } = props;
+	// to track current route
+	let location = useLocation();
+	console.log(location);
 	return (
-		<div className="col-2">
+		<div
+			className={`${
+				location.pathname == "/store" ? `gr-${grid}` : "col-2"
+			} mb-2`}
+		>
 			<Link className="product-card position-relative">
 				<div className="wishlist-icon position-absolute">
 					<Link>
@@ -13,12 +21,12 @@ const ProductCard = () => {
 				</div>
 				<div className="product-img">
 					<img
-						src="images/tab1.jpg"
+						src="images/watch.jpg"
 						alt="product image"
 						className="img-fluid"
 					/>
 					<img
-						src="images/tab2.jpg"
+						src="images/watch-2.jfif"
 						alt="product image"
 						className="img-fluid"
 					/>
@@ -33,6 +41,12 @@ const ProductCard = () => {
 						edit={false}
 						activeColor="#febd69"
 					/>
+					<p className={`${grid == 12 ? "d-block" : "d-none"} desc`}>
+						lorem ipsum is simply a dummy text of wariting dummy text until you
+						run out of words to fill up your container lorem ipsum is simply a
+						dummy text of wariting dummy text until you run out of words to fill
+						up your container
+					</p>
 					<p className="product-price">₹ 7000</p>
 				</div>
 				<div className="action-bar position-absolute">
