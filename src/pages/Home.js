@@ -241,7 +241,11 @@ const Home = () => {
 						</div>
 						<div className="col-3">
 							<div className="famous-card position-relative">
-								<img src="images/famous-2-3.jpg" alt="famous" className="img-fluid" />
+								<img
+									src="images/famous-2-3.jpg"
+									alt="famous"
+									className="img-fluid"
+								/>
 								<div className="famous-content position-absolute">
 									<h6 className="text-dark">Studio Display</h6>
 									<h5 className="text-dark">600 nits of brightness</h5>
@@ -265,7 +269,11 @@ const Home = () => {
 						</div>
 						<div className="col-3">
 							<div className="famous-card position-relative">
-								<img src="images/famous-2-3.jpg" alt="famous" className="img-fluid" />
+								<img
+									src="images/famous-2-3.jpg"
+									alt="famous"
+									className="img-fluid"
+								/>
 								<div className="famous-content position-absolute">
 									<h6 className="text-dark">Studio Display</h6>
 									<h5 className="text-dark">600 nits of brightness</h5>
@@ -349,10 +357,20 @@ const Home = () => {
 						<div className="col-12">
 							<h3 className="section-heading">Our Latest Blogs</h3>
 						</div>
-						<BlogCard />
-						<BlogCard />
-						<BlogCard />
-						<BlogCard />
+						<div className="row">
+							<div className="col-3">
+								<BlogCard />
+							</div>
+							<div className="col-3">
+								<BlogCard />
+							</div>
+							<div className="col-3">
+								<BlogCard />
+							</div>
+							<div className="col-3">
+								<BlogCard />
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
