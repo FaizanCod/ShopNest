@@ -313,6 +313,12 @@ footer .input-group-text {
   margin-bottom: 20px;
 }
 
+.blog-date p {
+  font-size: 15px;
+  color: #555;
+  font-weight: 400;
+}
+
 /* Products Collection */
 .product-card {
   padding: 15px;

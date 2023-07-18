@@ -35,6 +35,10 @@ const SingleBlog = () => {
 									Gam venenetis bl.ndit hec eggt dis locus 8 parturient 8
 									acc•-unsen nig ante vestibulum.
 								</p>
+                                <div className="blog-date d-flex gap-20 align-items-center">
+                                    <p>1 Dec, 2022</p>
+                                    <p>11:33 am</p>
+                                </div>
 							</div>
 						</div>
 					</div>
