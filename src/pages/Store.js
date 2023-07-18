@@ -3,6 +3,7 @@ import ReactStars from "react-rating-stars-component";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import ProductCard from "../components/ProductCard";
+import Colors from "../components/Colors.js"
 
 const Store = () => {
 	// to set the grid style of the products
@@ -81,20 +82,7 @@ const Store = () => {
 									</div>
 									<h5 className="sub-title">Colors</h5>
 									<div>
-										<ul className="colors ps-1">
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-											<li></li>
-										</ul>
+										<Colors />
 									</div>
 									<h5 className="sub-title">Size</h5>
 									<div>
