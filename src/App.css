@@ -602,7 +602,8 @@ footer .input-group-text {
   border-radius: 10px;
 }
 
-.compare-product-card .cross {
+.compare-product-card .cross,
+.wishlist-card .cross {
   top: 15px;
   right: 15px;
   cursor: pointer;
@@ -610,14 +611,16 @@ footer .input-group-text {
   padding: 3px;
 }
 
-.compare-product-details h5.title {
+.compare-product-details h5.title,
+.wishlist-card h5.title {
   font-size: 18px;
   line-height: 22px;
   font-weight: 500;
   color: var(--color-1c1b1b);
 }
 
-.compare-product-details h6.price {
+.compare-product-details h6.price,
+.wishlist-card h6.price {
   font-size: 15px;
   line-height: 22px;
   font-weight: 400;
@@ -630,4 +633,3 @@ footer .input-group-text {
   padding: 10px 2px;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-

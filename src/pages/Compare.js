@@ -19,7 +19,7 @@ const Compare = () => {
 									alt="close"
 								/>
 								<div className="product-card-image">
-									<img src="images/watch.jpg" alt="watch" />
+									<img src="images/watch.jpg" className="img-fluid w-100" alt="watch" />
 								</div>
 								<div className="compare-product-details">
 									<h5 className="title">Smart Watch Series 7</h5>
@@ -63,7 +63,7 @@ const Compare = () => {
 									alt="close"
 								/>
 								<div className="product-card-image">
-									<img src="images/watch.jpg" alt="watch" />
+									<img src="images/watch.jpg" className="img-fluid w-100" alt="watch" />
 								</div>
 								<div className="compare-product-details">
 									<h5 className="title">Smart Watch Series 7</h5>
@@ -107,7 +107,7 @@ const Compare = () => {
 									alt="close"
 								/>
 								<div className="product-card-image">
-									<img src="images/watch.jpg" alt="watch" />
+									<img src="images/watch.jpg" className="img-fluid w-100" alt="watch" />
 								</div>
 								<div className="compare-product-details">
 									<h5 className="title">Smart Watch Series 7</h5>
@@ -151,7 +151,7 @@ const Compare = () => {
 									alt="close"
 								/>
 								<div className="product-card-image">
-									<img src="images/watch.jpg" alt="watch" />
+									<img src="images/watch.jpg" className="img-fluid w-100" alt="watch" />
 								</div>
 								<div className="compare-product-details">
 									<h5 className="title">Smart Watch Series 7</h5>
