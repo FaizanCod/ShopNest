@@ -699,3 +699,9 @@ footer .input-group-text {
   font-size: 13px;
   color: var(--color-3b4149);
 }
+
+/* Policy Pages */
+.policy {
+  background-color: white;
+  padding: 30px;
+}
