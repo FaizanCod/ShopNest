@@ -313,6 +313,14 @@ footer .input-group-text {
   margin-bottom: 20px;
 }
 
+.single-blog-card img {
+  height: 50%;
+  width: 66%;
+  margin: 30px auto;
+  align-self: center;
+  border-radius: 10px;
+}
+
 .blog-date p {
   font-size: 15px;
   color: #555;

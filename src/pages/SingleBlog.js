@@ -3,6 +3,7 @@ import Meta from "../components/Meta";
 import BreadCrumb from "../components/BreadCrumb";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import blog from "../images/blog-1.jpg";
 
 const SingleBlog = () => {
 	return (
@@ -20,11 +21,9 @@ const SingleBlog = () => {
 								<h3 className="title">
 									A beautiful Sunday Morning Renaissance
 								</h3>
-								<img
-									src="images/blog-1.jpg"
-									className="img-fluid w-100 my-4"
-									alt="blog"
-								/>
+								<div className="d-flex align-items-center">
+									<img src={blog} className="img-fluid" alt="blog" />
+								</div>
 								<p>
 									Your. only 8' aooS as your Gst collectico. which is an
 									enormous pressure. think there is saw—thing 800ut luxury -
@@ -35,10 +34,10 @@ const SingleBlog = () => {
 									Gam venenetis bl.ndit hec eggt dis locus 8 parturient 8
 									acc•-unsen nig ante vestibulum.
 								</p>
-                                <div className="blog-date d-flex gap-20 align-items-center">
-                                    <p>1 Dec, 2022</p>
-                                    <p>11:33 am</p>
-                                </div>
+								<div className="blog-date d-flex gap-20 align-items-center">
+									<p>1 Dec, 2022</p>
+									<p>11:33 am</p>
+								</div>
 							</div>
 						</div>
 					</div>
