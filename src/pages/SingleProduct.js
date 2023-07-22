@@ -141,7 +141,7 @@ const SingleProduct = () => {
 												min={1}
 												max={10}
 												style={{ width: "70px" }}
-												className="form=control ps-2 py-1"
+												className="form-control ps-2 pe-0 py-1"
 												name=""
 												id=""
 											/>

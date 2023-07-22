@@ -850,3 +850,55 @@ footer .input-group-text {
   color: var(--color-777777);
   margin-bottom: 0px;
 }
+
+/* Cart */
+.cart-header,
+.cart-data {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.cart-header h4 {
+  font-size: 15px;
+  color: var(--color-777777);
+}
+
+.cart-col-1 {
+  width: 45%;
+}
+
+.cart-col-2 {
+  width: 10%;
+}
+
+.cart-col-3 {
+  width: 15%;
+}
+
+.cart-col-4 {
+  width: 10%;
+}
+
+.cart-col-3 .delete {
+  border-radius: 12px;
+  padding: 5px 8px;
+  background-color: var(--color-3b4149);
+}
+
+.cart-col-3 .delete:hover {
+  background-color: var(--color-febd69);
+}
+
+.cart-col-3 .del-icon {
+  font-size: 22px;
+  color: white
+}
+
+.cart-col-1 p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+
+.cart-data h5.price {
+  font-size: 16px;
+  color: var(--color-1c1b1b);
+}
