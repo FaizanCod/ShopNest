@@ -34,19 +34,19 @@ const Header = () => {
 					<div className="row align-items-center">
 						<div className="col-3">
 							<h2>
-								<Link className="text-white">ShopNest.</Link>
+								<Link to="/" className="text-white">ShopNest.</Link>
 							</h2>
 						</div>
 						<div className="col-4">
-							<div class="input-group">
+							<div className="input-group">
 								<input
 									type="text"
-									class="form-control py-2"
+									className="form-control py-2"
 									placeholder="Search Product Here..."
 									aria-label="Search Product Here..."
 									aria-describedby="basic-addon2"
 								/>
-								<span class="input-group-text px-3" id="basic-addon2">
+								<span className="input-group-text px-3" id="basic-addon2">
 									<BsSearch className="fs-5" />
 								</span>
 							</div>
