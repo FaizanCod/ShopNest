@@ -116,25 +116,25 @@ const Footer = () => {
 								<Link className="text-white mb-1 py-2">Tablets</Link>
 							</div>
 						</div>
-						<div className="col-3">
+						<div className="col-3 download">
 							<h5 className="text-white mb-4">Our App</h5>
 							<div className="d-flex flex-column">
 								<p className="text-white mb-0">
 									Download our app and get extra 15% discount on your first
 									order!
 								</p>
-								<div className="d-flex mt-3">
+								<div className="d-flex justify-content-between align-items-center mt-3 download-btns">
 									<div className="d-flex align-items-center download-btn">
 										<button
 											type="button"
 											className="btn btn-light text-start d-flex align-items-center"
 										>
-											<i className="row-8 me-2 fs-4">
+											<i className="row-8 me-2 fs-6">
 												<BsGooglePlay />
 											</i>
 											<span className="row-4 download-txt">
 												Get it on <br />
-												<span className="download-txt-2">Google Play</span>
+												<span className="download-txt-2">Play Store</span>
 											</span>
 										</button>
 									</div>
@@ -143,11 +143,11 @@ const Footer = () => {
 											type="button"
 											className="btn btn-light text-start d-flex align-items-center"
 										>
-											<i className="row-8 me-2 fs-4">
+											<i className="row-8 me-2 fs-6">
 												<BsApple />
 											</i>
 											<span className="row-4 download-txt">
-												Download from <br />
+												Get it from <br />
 												<span className="download-txt-2">App Store</span>
 											</span>
 										</button>

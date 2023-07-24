@@ -192,9 +192,9 @@ const Home = () => {
 					<ProductCard />
 				</div>
 			</Container>
-			<Container class1="famous-wrapper py-5 home-wrapper-2">
+			<Container class1="famous-wrapper py-2 home-wrapper-2">
 				<div className="row">
-					<div className="col-3">
+					<div className="col-3 mt-4">
 						<div className="famous-card position-relative">
 							<img
 								src="images/famous-1-2.jpg"
@@ -208,7 +208,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-3">
+					<div className="col-3 mt-4">
 						<div className="famous-card position-relative">
 							<img
 								src="images/famous-2-3.jpg"
@@ -222,7 +222,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-3">
+					<div className="col-3 mt-4">
 						<div className="famous-card position-relative">
 							<img
 								src="images/famous-2-3.jpg"
@@ -236,7 +236,7 @@ const Home = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-3">
+					<div className="col-3 mt-4">
 						<div className="famous-card position-relative">
 							<img
 								src="images/famous-2-3.jpg"

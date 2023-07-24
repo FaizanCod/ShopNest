@@ -32,7 +32,7 @@ function App() {
 						<Route index element={<Home />} />
 						<Route path="about" element={<About />} />
 						<Route path="contact" element={<Contact />} />
-						<Route path="store" element={<Store />} />
+						<Route path="product" element={<Store />} />
 						<Route path="blogs" element={<Blog />} />
 						<Route path="blog/:id" element={<SingleBlog />} />
 						<Route path="compare-products" element={<Compare />} />

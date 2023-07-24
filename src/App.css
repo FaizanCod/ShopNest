@@ -149,6 +149,10 @@ footer .input-group-text {
   font-size: 0.8rem;
 }
 
+.download-btn {
+  width: 53%;
+}
+
 .download-btn .download-txt {
   font-size: 12px;
 }
@@ -402,6 +406,20 @@ footer .input-group-text {
   padding: 20px 10px;
   border-radius: 10px;
   background-color: white;
+}
+
+.special-product-card .badge {
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.special-product-card .discount-till>div {
+  gap: 5px;
+}
+
+.special-product-card .discount-till p.badge {
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 /* Famous Card */
@@ -927,4 +945,243 @@ footer .input-group-text {
 .checkout-wrapper .price {
   font-size: 16px;
   color: var(--color-131921);
+}
+
+/* Media Queries (Laptop) */
+
+@media screen and (max-width: 1400px) {
+  .container-xxl {
+    max-width: 90%;
+  }
+
+  .header-top-strip p {
+    font-size: 15px;
+  }
+
+  .header-upper p {
+    font-size: 15px;
+  }
+
+  .search {
+    max-width: 25%;
+  }
+
+  .header-upper .col-5 {
+    width: 50%;
+  }
+
+  .featured-wrapper .col-2,
+  .popular-wrapper .col-2 {
+    width: 20%;
+  }
+
+  .featured-wrapper .wishlist-icon img,
+  .popular-wrapper .wishlist-icon img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .featured-wrapper .wishlist-icon,
+  .popular-wrapper .wishlist-icon {
+    top: 14px;
+    right: 16px;
+  }
+
+  .featured-wrapper .action-bar button img,
+  .popular-wrapper .action-bar button img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .featured-wrapper .action-bar,
+  .popular-wrapper .action-bar {
+    top: 38px;
+  }
+
+  .featured-wrapper .product-card:hover .action-bar,
+  .popular-wrapper .product-card:hover .action-bar {
+    right: 15px;
+  }
+
+  .famous-wrapper .col-3 {
+    width: 33%;
+  }
+
+  .famous-card h5 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1175px) and (min-width: 1024px) {
+  .small-banner {
+    width: 48%;
+  }
+
+  .main-banner-content h4 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .main-banner-content h5 {
+    font-size: 34px;
+    line-height: 48px;
+  }
+
+  .main-banner-content p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .small-banner-content h4 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .small-banner-content h5 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .small-banner-content p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .services h6,
+  .services p {
+    font-size: 12px;
+  }
+
+  .services img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .categories img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .categories h5,
+  .categories p {
+    font-size: 12px;
+  }
+
+  .featured-wrapper .col-2,
+  .popular-wrapper .col-2 {
+    width: 25%;
+  }
+
+  .featured-wrapper .wishlist-icon img,
+  .popular-wrapper .wishlist-icon img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .featured-wrapper .wishlist-icon,
+  .popular-wrapper .wishlist-icon {
+    top: 14px;
+    right: 16px;
+  }
+
+  .featured-wrapper .action-bar button img,
+  .popular-wrapper .action-bar button img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .featured-wrapper .action-bar,
+  .popular-wrapper .action-bar {
+    top: 38px;
+  }
+
+  .featured-wrapper .product-card:hover .action-bar,
+  .popular-wrapper .product-card:hover .action-bar {
+    right: 15px;
+  }
+}
+
+@media screen and (max-width:1300px) and (min-width: 1024px) {
+  .special-product-card .discount-till {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .special-product-card .discount-till p b {
+    font-size: 18px;
+  }
+
+  .special-product-card .add-cart-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .special-product-card>div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .special-product-card .discount-till .timer {
+    gap: 10px;
+  }
+
+  .special-product-card .timer p {
+    padding: 12px;
+    font-size: 12px;
+  }
+
+  .special-product-card>div .col-5,
+  .special-product-card>div .col-7 {
+    width: 100%;
+  }
+
+  .special-product-card>div .col-7 {
+    padding: 5px 20px;
+  }
+
+  .special-product-card .col-5 img {
+    width: 100%;
+  }
+
+  .special-product-card .prod-count p {
+    text-align: center;
+  }
+
+  .special-product-card .progress {
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width:1300px) and (min-width: 1175px) {
+  .services h6,
+  .services p {
+    font-size: 14px;
+  }
+
+  .services img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 1345px) and (min-width: 1300px) {
+  .special-product-card .discount-till p b {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1263px) {
+  .download-btns {
+    flex-direction: column;
+  }
+
+  .download-btn {
+    width: 100% !important;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .download-btns .download-btn {
+    margin-left: 0 !important;
+  }
 }

@@ -7,10 +7,10 @@ const SpecialProduct = () => {
 		<div className="col-4 mb-3">
 			<div className="special-product-card">
 				<div className="d-flex justify-content-between">
-					<div className="col-4">
+					<div className="col-5">
 						<img src="images/watch.jpg" className="img-fluid" alt="watch" />
 					</div>
-					<div className="col-8">
+					<div className="col-7">
 						<div className="special-product-content">
 							<h5 className="brand">Havells</h5>
 							<h6 className="title">Samsung Galaxy Note 7+</h6>
@@ -30,10 +30,10 @@ const SpecialProduct = () => {
 							<p className="mb-0">
 								<b>5 days</b>
 							</p>
-							<div className="d-flex gap-8 align-items-center">
-								<span className="badge rounded-circle p-3 bg-danger">1</span>:
-								<span className="badge rounded-circle p-3 bg-danger">1</span>:
-								<span className="badge rounded-circle p-3 bg-danger">1</span>
+							<div className="d-flex align-items-center timer">
+								<p className="badge bg-danger">12</p>:
+								<p className="badge bg-danger">12</p>:
+								<p className="badge bg-danger">12</p>
 							</div>
 						</div>
 						<div className="prod-count my-3">
@@ -45,11 +45,13 @@ const SpecialProduct = () => {
 									aria-valuenow="25"
 									aria-valuemin="0"
 									aria-valuemax="100"
-									style={{ width: "25%" }}
+									style={{ width: "25%", color: "#febd69" }}
 								></div>
 							</div>
 						</div>
-                        <Link className="button">Add to Cart</Link>
+						<div className="mt-2 add-cart-btn">
+							<Link className="button">Add to Cart</Link>
+						</div>
 					</div>
 				</div>
 			</div>
