@@ -11,7 +11,7 @@ const Home = () => {
 	return (
 		<>
 			<Container class1="home-wrapper-1 py-5">
-				<div className="row">
+				<div className="row banners">
 					<div className="col-6">
 						<div className="main-banner position-relative">
 							<img
@@ -31,7 +31,7 @@ const Home = () => {
 						</div>
 					</div>
 					<div className="col-6">
-						<div className="d-flex flex-wrap  gap-10 justify-content-between align-items-center">
+						<div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
 							<div className="small-banner position-relative">
 								<img
 									src="images/catbanner-01.jpg"
@@ -319,16 +319,16 @@ const Home = () => {
 						<h3 className="section-heading">Our Latest Blogs</h3>
 					</div>
 					<div className="row">
-						<div className="col-3">
+						<div className="col-3 mb-3">
 							<BlogCard />
 						</div>
-						<div className="col-3">
+						<div className="col-3 mb-3">
 							<BlogCard />
 						</div>
-						<div className="col-3">
+						<div className="col-3 mb-3">
 							<BlogCard />
 						</div>
-						<div className="col-3">
+						<div className="col-3 mb-3">
 							<BlogCard />
 						</div>
 					</div>

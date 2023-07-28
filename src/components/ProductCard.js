@@ -47,6 +47,7 @@ const ProductCard = (props) => {
 						value={3}
 						edit={false}
 						activeColor="#febd69"
+						classNames={"stars"}
 					/>
 					<p className={`${grid == 12 ? "d-block" : "d-none"} desc`}>
 						lorem ipsum is simply a dummy text of wariting dummy text until you

@@ -31,10 +31,12 @@ const Header = () => {
 			</header>
 			<header className="header-upper py-3">
 				<div className="container-xxl">
-					<div className="row align-items-center">
+					<div className="row align-items-center justify-content-between">
 						<div className="col-3">
 							<h2>
-								<Link to="/" className="text-white">ShopNest.</Link>
+								<Link to="/" className="text-white">
+									ShopNest.
+								</Link>
 							</h2>
 						</div>
 						<div className="col-4 search">
@@ -42,8 +44,8 @@ const Header = () => {
 								<input
 									type="text"
 									className="form-control py-2"
-									placeholder="Search Product Here..."
-									aria-label="Search Product Here..."
+									placeholder="Search Products..."
+									aria-label="Search Products..."
 									aria-describedby="basic-addon2"
 								/>
 								<span className="input-group-text px-3" id="basic-addon2">
@@ -92,9 +94,13 @@ const Header = () => {
 										className="d-flex align-items-center gap-10 text-white"
 									>
 										<img src={cart} alt="cart" />
-										<div className="d-flex flex-column">
-											<span className="badge bg-white text-dark">0</span>
-											<p className="mb-0">₹ 500</p>
+										<div className="d-flex flex-column position-relative">
+											<span className="badge bg-white text-dark position-absolute">
+												10
+											</span>
+											<p className="ms-3 mb-0">
+												Cart <br />₹ 500
+											</p>
 										</div>
 									</Link>
 								</div>

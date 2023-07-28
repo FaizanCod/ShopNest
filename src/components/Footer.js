@@ -41,7 +41,7 @@ const Footer = () => {
 			<footer className="py-4">
 				<div className="container-xxl">
 					<div className="row">
-						<div className="col-3">
+						<div className="col-3 contact">
 							<h5 className="text-white mb-4">Contact Us</h5>
 							<div>
 								<address className="text-white fs-6">
@@ -76,7 +76,7 @@ const Footer = () => {
 								</div>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-2 info">
 							<h5 className="text-white mb-4">Information</h5>
 							<div className="footer-links d-flex flex-column">
 								<Link to="/privacy-policy" className="text-white mb-1 py-2">
@@ -94,12 +94,9 @@ const Footer = () => {
 								>
 									Terms and Conditions
 								</Link>
-								<Link to="/blogs" className="text-white mb-1 py-2">
-									Blogs
-								</Link>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-2 acc">
 							<h5 className="text-white mb-4"> Account</h5>
 							<div className="footer-links d-flex flex-column">
 								<Link className="text-white mb-1 py-2">About Us</Link>
@@ -107,7 +104,7 @@ const Footer = () => {
 								<Link className="text-white mb-1 py-2">Contact</Link>
 							</div>
 						</div>
-						<div className="col-2">
+						<div className="col-2 links">
 							<h5 className="text-white mb-4">Quick Links</h5>
 							<div className="footer-links d-flex flex-column">
 								<Link className="text-white mb-1 py-2">Laptops</Link>
@@ -161,7 +158,7 @@ const Footer = () => {
 			<footer className="py-3">
 				<div className="container-xxl">
 					<div className="row">
-						<div className="col-12">
+						<div className="col-12 copyright">
 							<p className="text-white mb-0 text-left">
 								&copy; {new Date().getFullYear()}, Powered by Developers.
 							</p>

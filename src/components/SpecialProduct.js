@@ -21,6 +21,7 @@ const SpecialProduct = () => {
 							value={4}
 							edit={false}
 							activeColor="#febd69"
+							classNames={"stars"}
 						/>
 						<p className="price">
 							<span className="red-p">₹ 1500</span> &nbsp;{" "}
