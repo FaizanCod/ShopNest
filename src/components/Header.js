@@ -15,7 +15,7 @@ const Header = () => {
 					<div className="row">
 						<div className="col-7">
 							<p className="text-white mb-0">
-								Free Shipping on orders over ₹1000 & Free Returns
+								Free Shipping on orders over ₹1000 & Free Returns *
 							</p>
 						</div>
 						<div className="col-5">
@@ -104,6 +104,26 @@ const Header = () => {
 										</div>
 									</Link>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<header className="search-bar py-2" style={{ display: "none" }}>
+				<div className="container-xxl">
+					<div className="row">
+						<div className="col-12">
+							<div className="input-group">
+								<input
+									type="text"
+									className="form-control py-1"
+									placeholder="Search Products..."
+									aria-label="Search Products..."
+									aria-describedby="basic-addon2"
+								/>
+								<span className="input-group-text px-3" id="basic-addon2">
+									<BsSearch className="fs-6" />
+								</span>
 							</div>
 						</div>
 					</div>

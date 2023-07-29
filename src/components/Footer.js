@@ -38,6 +38,26 @@ const Footer = () => {
 					</div>
 				</div>
 			</footer>
+			<footer className="py-3" style={{ display: "none" }}>
+				<div className="container-xxl hidden-search">
+					<div className="row">
+						<div className="col-12">
+							<div class="input-group">
+								<input
+									type="text"
+									class="form-control py-1"
+									placeholder="Your Email Address"
+									aria-label="Your Email Address"
+									aria-describedby="basic-addon2"
+								/>
+								<span class="input-group-text px-3" id="basic-addon2">
+									Subscribe
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
 			<footer className="py-4">
 				<div className="container-xxl">
 					<div className="row">

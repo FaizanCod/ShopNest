@@ -14,11 +14,13 @@ const Home = () => {
 				<div className="row banners">
 					<div className="col-6">
 						<div className="main-banner position-relative">
-							<img
-								src="images/main-banner-1.jpg"
-								className="img-fluid rounded-3"
-								alt="main banner"
-							/>
+							<div className="main-banner-img">
+								<img
+									src="images/main-banner-1.jpg"
+									className="img-fluid rounded-3"
+									alt="main banner"
+								/>
+							</div>
 							<div className="main-banner-content position-absolute">
 								<h4>SUPERCHARGED FOR PROS.</h4>
 								<h5>iPad S13+ Pro.</h5>
@@ -33,11 +35,14 @@ const Home = () => {
 					<div className="col-6">
 						<div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
 							<div className="small-banner position-relative">
-								<img
-									src="images/catbanner-01.jpg"
-									className="img-fluid rounded-3"
-									alt="main banner"
-								/>
+								<div className="small-banner-img">
+									<img
+										src="images/catbanner-01.jpg"
+										className="img-fluid rounded-3"
+										alt="main banner"
+									/>
+								</div>
+
 								<div className="small-banner-content position-absolute">
 									<h4>BEST SALE</h4>
 									<h5>Laptops Max</h5>
@@ -48,11 +53,13 @@ const Home = () => {
 								</div>
 							</div>
 							<div className="small-banner position-relative">
-								<img
-									src="images/catbanner-02.jpg"
-									className="img-fluid rounded-3"
-									alt="main banner"
-								/>
+								<div className="small-banner-img">
+									<img
+										src="images/catbanner-02.jpg"
+										className="img-fluid rounded-3"
+										alt="main banner"
+									/>
+								</div>
 								<div className="small-banner-content position-absolute">
 									<h4>NEW ARRIVAL</h4>
 									<h5>iPad S13+ Pro.</h5>
@@ -63,11 +70,13 @@ const Home = () => {
 								</div>
 							</div>
 							<div className="small-banner position-relative">
-								<img
-									src="images/catbanner-03.jpg"
-									className="img-fluid rounded-3"
-									alt="main banner"
-								/>
+								<div className="small-banner-img">
+									<img
+										src="images/catbanner-03.jpg"
+										className="img-fluid rounded-3"
+										alt="main banner"
+									/>
+								</div>
 								<div className="small-banner-content position-absolute">
 									<h4>SUPERCHARGED FOR PROS.</h4>
 									<h5>iPad S13+ Pro.</h5>
@@ -78,11 +87,13 @@ const Home = () => {
 								</div>
 							</div>
 							<div className="small-banner position-relative">
-								<img
-									src="images/catbanner-04.jpg"
-									className="img-fluid rounded-3"
-									alt="main banner"
-								/>
+								<div className="small-banner-img">
+									<img
+										src="images/catbanner-04.jpg"
+										className="img-fluid rounded-3"
+										alt="main banner"
+									/>
+								</div>
 								<div className="small-banner-content position-absolute">
 									<h4>SUPERCHARGED FOR PROS.</h4>
 									<h5>iPad S13+ Pro.</h5>
@@ -99,7 +110,7 @@ const Home = () => {
 			<Container class1="home-wrapper-2 py-5">
 				<div className="row">
 					<div className="col-12">
-						<div className="services d-flex align-items-center justify-content-between">
+						<div className="services d-flex align-items-center justify-content-around">
 							{services?.map((i, j) => {
 								return (
 									<div className="d-flex align-items-center gap-15" key={j}>
@@ -135,7 +146,7 @@ const Home = () => {
 							</div>
 							<div className="d-flex gap-20 align-items-center">
 								<div>
-									<h6>Smart Watches</h6>
+									<h6>Smart Watch</h6>
 									<p>10 Items</p>
 								</div>
 								<img src="images/camera.jpg" alt="camera" />
@@ -156,6 +167,13 @@ const Home = () => {
 							</div>
 							<div className="d-flex gap-20 align-items-center">
 								<div>
+									<h6>Headphones</h6>
+									<p>10 Items</p>
+								</div>
+								<img src="images/headphone.jpg" alt="camera" />
+							</div>
+							<div className="d-flex gap-20 align-items-center">
+								<div>
 									<h6>Smart TV</h6>
 									<p>10 Items</p>
 								</div>
@@ -163,17 +181,10 @@ const Home = () => {
 							</div>
 							<div className="d-flex gap-20 align-items-center">
 								<div>
-									<h6>Smart Watches</h6>
+									<h6>Smart Watch</h6>
 									<p>10 Items</p>
 								</div>
 								<img src="images/camera.jpg" alt="camera" />
-							</div>
-							<div className="d-flex gap-20 align-items-center">
-								<div>
-									<h6>Headphones</h6>
-									<p>10 Items</p>
-								</div>
-								<img src="images/headphone.jpg" alt="camera" />
 							</div>
 						</div>
 					</div>

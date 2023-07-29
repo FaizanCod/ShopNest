@@ -1535,6 +1535,7 @@ footer .input-group-text {
     font-size: 20px !important;
   }
 
+  .contact h5.mb-4,
   .info h5.mb-4,
   .acc h5.mb-4,
   .links h5.mb-4,
@@ -1565,5 +1566,255 @@ footer .input-group-text {
 
   ::-webkit-input-placeholder {
     font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 724px) and (min-width: 650px) {
+  .banners .col-6 {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+
+  .main-banner-img {
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .main-banner-img img {
+    margin-top: -10px;
+  }
+
+  .small-banner-img {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .small-banner-img img {
+    margin-top: -25px;
+  }
+
+  div.col-2:has(.product-card) {
+    width: 33%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .famous-wrapper .col-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .famous-card .famous-content {
+    top: 5%;
+    left: 14px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .banners .col-6 {
+    width: 100% !important;
+    margin-bottom: 15px;
+  }
+
+  .header-top-strip .col-5 p {
+    display: none;
+  }
+
+  .header-top-strip .col-7 {
+    width: 100%;
+  }
+
+  .header-upper .search {
+    display: none;
+  }
+
+  .header-upper .col-3 {
+    width: 50%;
+  }
+
+  .header-upper .col-5 {
+    width: 35%;
+  }
+
+  header.search-bar {
+    display: block !important;
+    background-color: var(--color-232f3e);
+  }
+
+  header.search-bar span {
+    background-color: var(--color-febd69);
+  }
+
+  .menu-bottom.gap-30 {
+    gap: 12px;
+  }
+
+  .menu-bottom .menu-links a {
+    font-size: 11px;
+  }
+
+  .dropdown button.gap-10 {
+    gap: 5px;
+  }
+
+  .dropdown button>span.me-2 {
+    margin-right: 0px !important;
+    font-size: 11px;
+  }
+
+  .dropdown button {
+    padding: 5px;
+  }
+
+  .services {
+    flex-wrap: wrap;
+  }
+
+  .col-12:has(.services) {
+    padding: 0 5px;
+  }
+
+  .home-wrapper-2:has(.row .col-12 .services) {
+    padding-bottom: 5px !important;
+  }
+
+  .services>div {
+    margin-bottom: 14px;
+  }
+
+  .services>div.gap-15 {
+    gap: 5px;
+  }
+
+  div.col-2:has(.product-card) {
+    width: 33%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .categories .gap-20 {
+    gap: 10px;
+  }
+
+  .categories>div {
+    padding: 7px;
+    width: 33%;
+  }
+
+  .categories>div>div>p {
+    margin-bottom: 2px;
+  }
+
+  .categories>div:nth-child(1),
+  .categories>div:nth-child(2),
+  .categories>div:nth-child(3),
+  .categories>div:nth-child(4),
+  .categories>div:nth-child(5),
+  .categories>div:nth-child(6) {
+    border-bottom: 1px solid var(--color-ededed);
+  }
+
+  .categories>div:nth-child(3),
+  .categories>div:nth-child(6) {
+    border-right: 0;
+  }
+
+  .categories>div:nth-child(8) {
+    border-left: 1px solid var(--color-ededed);
+    margin-left: 150px !important;
+  }
+
+  .categories>div:nth-child(1),
+  .categories>div:nth-child(2),
+  .categories>div:nth-child(4),
+  .categories>div:nth-child(5),
+  .categories>div:nth-child(7) {
+    border-right: 1px solid var(--color-ededed);
+  }
+
+  .famous-wrapper .col-3 {
+    width: 50%;
+  }
+
+  .famous-card .famous-content {
+    top: 5%;
+    left: 14px;
+  }
+
+  .col-4:has(.special-product-card) {
+    width: 100% !important;
+  }
+
+  .blog-wrapper .col-3 {
+    width: 50% !important;
+  }
+
+  footer .contact,
+  footer .info,
+  footer .acc,
+  footer .links,
+  footer .download {
+    width: 33%;
+  }
+
+  footer .contact h5.mb-4,
+  footer .info h5.mb-4,
+  footer .acc h5.mb-4,
+  footer .links h5.mb-4,
+  footer .download h5.mb-4 {
+    margin-bottom: 10px !important;
+  }
+
+  footer .links,
+  footer .download {
+    margin-top: 30px;
+    margin-right: 10px;
+    /* border-top: 1px solid var(--color-777777); */
+  }
+
+  footer .col-7 {
+    display: none;
+  }
+
+  footer .col-5:has(.footer-top-data) {
+    width: 100%;
+  }
+
+  footer:has(.hidden-search) {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 650px) and (min-width: 500px) {
+  .main-banner-img {
+    height: 230px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .main-banner-img img {
+    margin-top: -15px;
+  }
+
+  .small-banner-img {
+    height: 125px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .small-banner-img img {
+    margin-top: -17.5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.col-2:has(.product-card) {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
