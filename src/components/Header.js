@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import { FiMenu } from "react-icons/fi";
 import menu from "../images/menu.svg";
 import compare from "../images/compare.svg";
 import wishlist from "../images/wishlist.svg";
@@ -129,52 +130,81 @@ const Header = () => {
 					</div>
 				</div>
 			</header>
-			<header className="header-bottom py-3">
-				<div className="container-xxl">
+			<nav className="navbar navbar-expand-lg header-bottom py-3">
+				<div className="container-xxl d-flex justify-content-center">
 					<div className="row">
 						<div className="col-12">
-							<div className="menu-bottom d-flex align-items-center gap-30">
-								<div className="dropdown">
-									<button
-										className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-10 d-flex align-items-center"
-										type="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
-									>
-										<img src={menu} alt="menu" />
-										<span className="me-2 d-inline-block">Shop Categories</span>
-									</button>
-									<ul className="dropdown-menu">
-										<li>
-											<Link className="dropdown-item text-white" to="#">
-												Action
-											</Link>
+							<div className="menu-bottom d-flex flex-wrap gap-15 align-items-center justify-content-between">
+								<button
+									className="navbar-toggler text-white"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#navbarSupportedContent"
+									aria-controls="navbarSupportedContent"
+									aria-expanded="false"
+									aria-label="Toggle navigation"
+								>
+									<span className="navbar-toggler-icon"></span>
+								</button>
+								<div
+									className="collapse navbar-collapse"
+									id="navbarSupportedContent"
+								>
+									<ul className="navbar-nav me-auto mb-2 mb-lg-0  d-flex align-items-center">
+										<li className="nav-item dropdown">
+											<button
+												className="nav-link dropdown-toggle"
+												href="#"
+												role="button"
+												data-bs-toggle="dropdown"
+												aria-expanded="false"
+											>
+												<img src={menu} alt="menu" />
+												<span className="ms-2 me-2 d-in1ine-b10ck">
+													Shop Categories
+												</span>
+											</button>
+											<ul className="dropdown-menu">
+												<li>
+													<a className="dropdown-item text-white" href="#">
+														Electronics
+													</a>
+												</li>
+												<li>
+													<a className="dropdown-item text-white" href="#">
+														Utilities
+													</a>
+												</li>
+												<li>
+													<a className="dropdown-item text-white" href="#">
+														Fashion
+													</a>
+												</li>
+											</ul>
 										</li>
-										<li>
-											<Link className="dropdown-item text-white" to="#">
-												Another action
-											</Link>
-										</li>
-										<li>
-											<Link className="dropdown-item text-white" to="#">
-												Something else here
-											</Link>
-										</li>
+										{/* <li className="nav-item"> */}
+										<div className="ms-3 menu-links d-flex gap-15 align-items-center">
+											<li className="nav-item">
+												<NavLink to="/">Home</NavLink>
+											</li>
+											<li className="nav-item">
+												<NavLink to="/product">Our Store</NavLink>
+											</li>
+											<li className="nav-item">
+												<NavLink to="/blogs">Blogs</NavLink>
+											</li>
+											<li className="nav-item">
+												<NavLink to="/contact">Contact</NavLink>
+											</li>
+										</div>
+										{/* </li> */}
 									</ul>
-								</div>
-								<div className="menu-links">
-									<div className="d-flex align-items-center gap-15">
-										<NavLink to="/">Home</NavLink>
-										<NavLink to="/product">Our Store</NavLink>
-										<NavLink to="/blogs">Blogs</NavLink>
-										<NavLink to="/contact">Contact</NavLink>
-									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</header>
+			</nav>
 		</>
 	);
 };

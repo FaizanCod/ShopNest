@@ -329,7 +329,7 @@ const Home = () => {
 					<div className="col-12">
 						<h3 className="section-heading">Our Latest Blogs</h3>
 					</div>
-					<div className="row">
+					<div className="row d-flex align-items-center justify-content-between w-100">
 						<div className="col-3 mb-3">
 							<BlogCard />
 						</div>
